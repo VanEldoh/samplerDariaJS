@@ -1,0 +1,88 @@
+html {
+  font-size: 10px;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: Jost;
+}
+
+body{
+  display: table-cell;
+  background-color:black;
+  vertical-align: middle;
+}
+
+.title{
+
+  color: blue;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.daria{
+  position: relative;
+  align-items: center;
+}
+
+#daria-pic{
+ max-width: 40vh;
+  max-height: 40vh;
+
+}
+#logo{
+  max-width: 100vh;
+  max-height: 100vh;
+
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid #F9FF6A;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: #F9FF6A;
+  background: #00887F;
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #6F0509;
+  box-shadow: 0 0 1rem #F04936;
+}
+
+kbd {
+  background-color: #6F0509;
+  font-family: Jost;
+  color: #F9FF6A;
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #FFDD4F;
+}
+
+
